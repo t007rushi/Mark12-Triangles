@@ -1,0 +1,59 @@
+body{
+    background-color: aliceblue;
+}
+
+.li-inline li{
+    display: inline;
+    padding: 0rem 1rem;
+    
+    text-align: right;
+}
+
+.navigation{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 1rem ;
+    border-bottom-left-radius: 1rem;
+}
+
+
+.nav-pill{
+display: block;
+text-align: right;
+    margin: 0.6rem 1rem;
+}
+.navigation .new-brand{
+    font-size: 1.5rem;
+    /* font-family: 'Times New Roman', Times, serif; */
+font-weight: bold;
+margin-left: 1rem;
+}
+
+/* .under{
+    background-color: aliceblue;
+} */
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    text-align: center;
+    padding: auto 1rem;
+    margin: 1.5rem 2rem;
+    background-color: palevioletred;
+}
+
+textarea{
+    background-color: palevioletred;
+    border-color: palevioletred;
+    color:white;
+}
+
+.quiz-container{
+    margin: auto 1rem;
+    padding: 1rem 1rem;
+}
+/* .click{
+    
+} */

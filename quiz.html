@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <nav class="navigation ">
+        <div class="new-brand">Welcome to Triangle World</div>
+        <ul class="non-bullets li-inline nav-pill">
+            <a href="IsTriangle.html" style="color:aliceblue">
+                <li>IsTriangle?</li>
+            </a>
+            <a href="quiz.html" style="color:aliceblue">
+                <li>QUIZ</li>
+            </a>
+            <a href="Hypotense.html" style="color:aliceblue">
+                <li>Hypotense</li>
+            </a>
+            <a href="area.html" style="color:aliceblue">
+                <li>AREA</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="container">
+        <form action="quiz.html">
+            <h1 style="color: aliceblue;">Triangle Quiz</h1>
+            <label for=" que1"></label>
+
+            <form class="container quiz-form">
+                <div class="quiz-container">
+                    <p>
+                        What is the third angle for the triangle where angle1 = 45° and angle2
+                        = 45°?
+                    </p>
+                    <label>
+                        <input required type="radio" name="options" value="45°" />
+                        45°
+                    </label>
+                    <label>
+                        <input required type="radio" name="options" value="60°" />
+                        60°
+                    </label>
+                    <label>
+                        <input required type="radio" name="options" value="90°" />
+                        90°
+                    </label>
+                </div>
+                <div class="quiz-container">
+                    <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+                    <label>
+                        <input required type="radio" name="option1" value="obtuse" />
+                        obtuse
+                    </label>
+                    <label>
+                        <input required type="radio" name="option1" value="acute" />
+                        acute
+                    </label>
+                    <label>
+                        <input required type="radio" name="option1" value="right angled" />
+                        right angled
+                    </label>
+                    <br>
+                    <button id="submit-btn" class="btn" type="submit">Submit Form</button>
+                    <br>
+                    <h1 id="score" style="color: aliceblue;"></h1>
+                </div>
+            </form>
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
