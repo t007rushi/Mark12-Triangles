@@ -28,11 +28,11 @@
         </ul>
     </nav>
     <div class="container">
-        <form action="quiz.html">
+        <form class="quiz-form">
             <h1 style="color: aliceblue;">Triangle Quiz</h1>
             <label for=" que1"></label>
 
-            <form class="container quiz-form">
+            <form class="container">
                 <div class="quiz-container">
                     <p>
                         What is the third angle for the triangle where angle1 = 45° and angle2
@@ -65,16 +65,31 @@
                         <input required type="radio" name="option1" value="right angled" />
                         right angled
                     </label>
-                    <br>
-                    <button id="submit-btn" class="btn" type="submit">Submit Form</button>
-                    <br>
-                    <h1 id="score" style="color: aliceblue;"></h1>
-                </div>
+              
+</div>
+<div class="quiz-container">
+    <p>If a triangle has 2 sides equal, what is it called?</p>
+    <label>
+        <input required type="radio" name="option2"   value="Equilateral" />
+        Equilateral
+    </label>
+    <label>
+        <input required type="radio" name="option2"  value="Isosceles" />
+        Isosceles 
+    </label>
+    <label>
+        <input required type="radio" name="option2"  value="Saclene" />
+        Saclene
+    </label>
+</div>
             </form>
-
+            <br>
+            <button id="submit-btn" type="submit">Submit Form</button>
+            <br>
+            <h1 id="score" style="color: aliceblue;"></h1>
     </div>
 
 </body>
-<script src="app.js"></script>
+<script src="appq.js"></script>
 
 </html>
